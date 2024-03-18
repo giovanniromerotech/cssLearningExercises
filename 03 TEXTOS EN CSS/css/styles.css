@@ -1,0 +1,74 @@
+/* Implementación de fuente */
+
+@font-face {
+    font-family: 'kode';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/KodeMono-VariableFont_wght.ttf');
+}
+
+/* Implementación de fuente externa */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Color de la selección */
+
+*::selection {
+    background-color: darkmagenta;
+    color:white;
+}
+
+body {
+    /* font-family: Georgia, 'Times New Roman', Times, serif; Fuentes seguras */
+    font-family: "Roboto", sans-serif;
+    color: #616161;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: 'kode';
+}
+
+p {
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: left; /*Valor por defecto*/
+}
+
+.cita {
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    padding: 40px;
+    color: crimson;
+}
+
+/* sombreado de textos */
+
+.sombreado {
+    text-shadow:2px 2px 4px grey;
+    font-size: 36px;
+}
+
+/* Subrayado de texto */
+
+.subrayado {
+    /* text-decoration-line: underline;
+    text-decoration-color: #dc143c;
+    text-decoration-style: wavy; */
+    text-decoration: underline #dc143c wavy; /*Propiedad de tipo shorthand*/
+}
+
+/* Propiedades de capitalización */
+
+.mayusc {
+    text-transform: uppercase;
+}
+
+.minusc {
+    text-transform: lowercase;
+}
+
+.capit {
+    text-transform: capitalize;
+}

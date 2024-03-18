@@ -1,0 +1,27 @@
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: tomato;
+    color:white;
+    border: 1px solid tomato;
+    border-radius: 5px;
+    border-bottom: 4px solid rgb(170, 31, 7);
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid rgb(170, 31, 7);
+    background-color: rgb(170, 31, 7);
+}
+
+.outline {
+    background-color: white;
+    color: rgb(170, 31, 7);
+    border: 1px solid rgb(170, 31, 7);
+    border-bottom: 4px solid rgb(170, 31, 7);
+}
+
+.outline:hover {
+    color:white;
+}
